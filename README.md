@@ -1,2 +1,2 @@
 This Project is Product management system
-using spring boot and postgresql 
+using spring boot and postgresql with flyway migration
