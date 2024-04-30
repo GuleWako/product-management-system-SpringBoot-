@@ -6,5 +6,5 @@ spring:
     driverClassName: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: update  # Optional: Set to update schema based on entities
+      ddl-auto: update
 
