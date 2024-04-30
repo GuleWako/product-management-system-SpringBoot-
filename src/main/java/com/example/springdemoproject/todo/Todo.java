@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class Todo {
     public void message(){
-        System.out.println("Hello springBoot community l ");
+        System.out.println("Hello springBoot community");
     }
 }
