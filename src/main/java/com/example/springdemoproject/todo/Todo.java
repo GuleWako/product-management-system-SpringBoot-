@@ -5,7 +5,14 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 public class Todo {
+    private final Test test;
+
+    public Todo(Test test) {
+        this.test = test;
+    }
+
     public void message(){
-        System.out.println("Hello springBoot community");
+       test.message();
+       //log.info("hello");
     }
 }

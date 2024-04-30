@@ -13,6 +13,7 @@ public class SpringDemoProjectApplication {
         Todo todo = context.getBean(Todo.class);
         todo.message();
 
+
     }
 
 }
